@@ -39,6 +39,6 @@ export const privateRoutes = [
 	},
 	{
 		path: '*',
-		element: <Page404 />,
+		element: <Navigate to='/feed' />,
 	},
 ];
